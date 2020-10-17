@@ -1,140 +1,50 @@
-.icon{
-  padding-left: 20px;
-
-}
-.h3f{
-   position: relative;
-   padding-left: 500px;
-   font-family: roboto sans-serif;
-   bottom: 40px;
-}
-.h3s{
-    position: relative;
-    bottom: 80px;
-    padding-left: 600px;
-}
-.h3t{
-    position: relative;
-    bottom: 120px;
-    padding-left: 700px;
-}
-.lineo{
-    position: relative;
-    bottom: 130px;
-    font-weight: 100;
-}
-.search-box{
-    width: 150px;
-    border: 5px snow;
-    background-color: rgb(207, 207, 207);
-    height: 25px;
-    padding-left: 30px;
-    color: #ffffff;
-    padding-top: 10px;
-    position: relative;
-    left: 1000px;
-    bottom: 250px;
-    border-bottom: black;
-
-}
-.search{
-    position: relative;
-    left: 70px;
-    color: rgb(0, 0, 0);
-}
-.user{
-    position: relative;
-    left: 1200px;
-    bottom: 275px;
-    font-size: 20px;
-}
-.heart{
-    position: relative;
-    left: 1220px;
-    bottom: 275px;
-    font-size: 20px;
-}
-.bag{
-    position: relative;
-    left: 1250px;
-    bottom: 275px;
-    font-size: 20px; 
-  
-}
-.offer{
-    position: relative;
-    left: 250px;
-    bottom: 200px;
-    font-weight: 300;
-    font-family: roboto thin;
-
-}
-
-
-.shipin{
-    font-weight: 300;
-    position: relative;
-    left: 500px;
-    font-weight: 300;
-    bottom: 240px;
-
-}
-.small {
-  width: 25px;
-  height: 20px;
-  position: relative;
-  left: 480px;
-  bottom: 140px;
-
-}
-.side{
-   font-weight: 300;
-   position: relative;
-   left: 1000px;
-   bottom: 322px;
-
-}
-.lines{
-    position: relative;
-    bottom: 330px;
-
-}
-.back-btn{
-    position: relative;
-    padding: 10px;
-    bottom: 330px;
-    left: 10px;
-}
-.back-n{
-    font-weight: 300;
-    position: relative;
-    bottom: 38px;
-    left: 25px;
-}
-.homeo{
-    text-decoration: underline;
-    font-weight: 300;
-    position: relative;
-    left:110px ;
-    bottom: 75px;
-}
-.adizero{
-    text-decoration: underline;
-    font-weight: 300;
-    position: relative;
-    left:190px ;
-    bottom: 112px;
-}
-
-
-
 @font-face {
     font-family: roboto;
     src: url(./fonts/Roboto-Regular.ttf);
 }
 @font-face {
     font-family: robotoThin;
-    src: url(./fonts/Roboto-Thin.ttf);}
+    src: url(./fonts/Roboto-Thin.ttf);
+}
+.roboto-font{
+    font-family: roboto;
+}
+.roboto-thin-font{
+    font-family: robotoThin;
+}
 
+html{
+    font-family: roboto;
+}
+.spacer{
+    flex-grow: 1;
+}
+.header{
+    display: flex;
+}
 
+.main-menu{
+    display: flex;
+    padding-right: 100px;
+}
+.main-menu-item{
 
+    /*
+        Padding all : top right bottom left
+    */
+    padding:8px 20px 8px 10px;
+}
+
+.header .logo img{
+    width:80px;
+    height: auto;
+}
+.main-menu-icons{
+    padding-top:25px;
+    font-size: 25px;
+}
+.main-menu-icons i{
+    padding:8px;
+
+    margin-right:20px;
+}
