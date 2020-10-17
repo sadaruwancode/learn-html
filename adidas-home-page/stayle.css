@@ -69,6 +69,65 @@
     font-family: roboto thin;
 
 }
+
+
+.shipin{
+    font-weight: 300;
+    position: relative;
+    left: 500px;
+    font-weight: 300;
+    bottom: 240px;
+
+}
+.small {
+  width: 25px;
+  height: 20px;
+  position: relative;
+  left: 480px;
+  bottom: 140px;
+
+}
+.side{
+   font-weight: 300;
+   position: relative;
+   left: 1000px;
+   bottom: 322px;
+
+}
+.lines{
+    position: relative;
+    bottom: 330px;
+
+}
+.back-btn{
+    position: relative;
+    padding: 10px;
+    bottom: 330px;
+    left: 10px;
+}
+.back-n{
+    font-weight: 300;
+    position: relative;
+    bottom: 38px;
+    left: 25px;
+}
+.homeo{
+    text-decoration: underline;
+    font-weight: 300;
+    position: relative;
+    left:110px ;
+    bottom: 75px;
+}
+.adizero{
+    text-decoration: underline;
+    font-weight: 300;
+    position: relative;
+    left:190px ;
+    bottom: 112px;
+}
+
+
+
 @font-face {
     font-family: roboto;
     src: url(./fonts/Roboto-Regular.ttf);
