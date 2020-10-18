@@ -53,5 +53,12 @@ html{
 }
 .search-icon{
     display: inline;
-    
+
+}
+.line{
+    display: flex;
+}.second-menu{
+    display: flex;
+   
+   
 }
