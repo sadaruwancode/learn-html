@@ -111,5 +111,30 @@ ul.breadcrumb li a:hover {
   left: 17px;
 }
 .adizero {
-  padding: 10px;
+  padding-left: 10px;
+  margin: 0px;
+}
+.category {
+  font-family: robotoThin;
+  display: flex;
+}
+.category-item {
+  padding: 0px 20px 0px 10px;
+}
+.filter-right-side {
+  font-family: robotoThin;
+  display: flex;
+}
+.filter-right-side-item {
+  padding: 0px 20px 0px 10px;
+}
+.section {
+  margin-left: 86px;
+  display: flex;
+  padding-left: 20px;
+}
+.section-item {
+  padding: 4px;
+  font-family: robotoThin;
+  font-size: 10px;
 }
