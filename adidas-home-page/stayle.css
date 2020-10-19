@@ -81,3 +81,35 @@ html {
   position: relative;
   top: 6px;
 }
+.icon-second {
+  width: auto;
+  height: 20px;
+  position: relative;
+  right: 70px;
+  top: 19px;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0f0f0f;
+  text-decoration: underline;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+.arrow {
+  position: relative;
+  top: 37px;
+  left: 17px;
+}
+.adizero {
+  padding: 10px;
+}
