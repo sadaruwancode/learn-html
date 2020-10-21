@@ -138,3 +138,22 @@ ul.breadcrumb li a:hover {
   font-family: robotoThin;
   font-size: 10px;
 }
+.filter-buttons {
+  display: flex;
+}
+.filter-buttons div {
+  display: inline-block;
+}
+
+.category-item h3 {
+  font-size: 15px !important;
+}
+
+.filter-right-side-item h3 {
+  font-size: 15px !important;
+}
+
+.filter-bar {
+  padding-left: 100px;
+  padding-right: 150px;
+}
