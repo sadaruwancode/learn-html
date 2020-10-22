@@ -16,6 +16,9 @@
 html {
   font-family: roboto;
 }
+body {
+  margin: 0px !important;
+}
 .spacer {
   flex-grow: 1;
 }
@@ -156,4 +159,61 @@ ul.breadcrumb li a:hover {
 .filter-bar {
   padding-left: 100px;
   padding-right: 150px;
+}
+.info {
+  padding-left: 100px;
+  padding-right: 150px;
+  font-family: roboto;
+  font-size: 15px;
+}
+.join-info {
+  width: 1400px;
+  border: 15px;
+  background-color: #ede734;
+  padding-left: 170px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.join-info-title h1 {
+  margin: 0px;
+}
+.join-info div {
+  display: inline-block;
+}
+.join-btn {
+  display: block;
+  width: 160px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 14px;
+  border-radius: 3px;
+  height: 40px;
+  color: #ffff;
+  background-color: #0f0f0f;
+  margin-left: 25px;
+  position: relative;
+  top: -40px;
+  cursor: pointer;
+}
+.join-btn:hover {
+  color: #ede734;
+}
+
+.list {
+  display: inline-block;
+  line-height: 30px;
+  padding-left: 100px;
+}
+.footer {
+  width: 1800px;
+  border: 15px;
+  background-color: #3a3737;
+  padding: 20px;
+  color: #ffff;
+  font-size: 15px;
+  font-family: robotoThin;
+}
+.list-non-syle li {
+  list-style: none;
 }
