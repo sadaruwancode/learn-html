@@ -1,7 +1,44 @@
-.body {
+body {
   margin: 0;
   padding: 0;
   background-image: url(background.jpg);
   background-size: cover;
-  background-position: center;
+  background-color: rgb(170, 223, 248);
+}
+.icon {
+  width: 175px;
+  height: 115px;
+}
+.headar {
+  display: flex;
+  color: white;
+}
+.main-menu {
+  display: flex;
+  padding-right: 100px;
+}
+.main-menu-item {
+  padding: 8px 20px 8px 10px;
+}
+.spacer {
+  flex-grow: 1;
+}
+.search-box {
+  padding-top: 28px;
+  width: 200px;
+  background: unset;
+  border-radius: 50px;
+}
+.search-icon {
+  display: inline;
+  padding-top: 8px;
+}
+.search-box input {
+  font-size: 20px;
+  border: none;
+  padding: 8px;
+  border-radius: 50px;
+}
+.bag-icon {
+  font-size: 200px;
 }
