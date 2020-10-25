@@ -1,13 +1,28 @@
+@font-face {
+  font-family: roboto;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: robotoThin;
+  src: url(./fonts/Roboto-Thin.ttf);
+}
 body {
   margin: 0;
-  padding: 0;
-  background-image: url(background.jpg);
-  background-size: cover;
+  padding: 50px;
+
   background-color: rgb(170, 223, 248);
+  font-family: roboto;
+}
+.padding-bg {
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  width: calc(100vw - 100px);
+  height: calc(100vh - 100px);
 }
 .icon {
-  width: 175px;
-  height: 115px;
+  width: 95px;
+  height: 65px;
+  padding: 10px;
 }
 .headar {
   display: flex;
@@ -39,6 +54,33 @@ body {
   padding: 8px;
   border-radius: 50px;
 }
+.search {
+  color: black;
+  position: relative;
+  bottom: 25px;
+  left: 10px;
+}
 .bag-icon {
-  font-size: 200px;
+  padding: 40px 20px 8px 80px;
+}
+.user-icon {
+  padding: 8px 20px 8px 0px;
+}
+.img-set {
+  padding-left: 200px;
+  border: 1px;
+}
+.img {
+  width: 8%;
+  height: auto;
+  display: flex;
+  border: 5px;
+  border-radius: 20px !important;
+  border: 1px white solid;
+  margin-top: 20px;
+}
+.main-menu-topic {
+  display: block;
+  padding-left: 800px;
+  margin: 0;
 }
