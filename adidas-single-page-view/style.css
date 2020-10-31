@@ -66,21 +66,55 @@ body {
 .user-icon {
   padding: 8px 20px 8px 0px;
 }
-.img-set {
-  padding-left: 200px;
-  border: 1px;
+
+.main-menu-topic {
+  display: block;
+
+  margin: 0;
 }
-.img {
-  width: 8%;
+.second-line {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: 50px 100px 10px 100px;
+  height: 300px;
+  content: "";
+}
+.main-title {
+  padding-top: 10px;
+}
+
+/*left side of second line*/
+
+.left-side {
+  display: flex;
+}
+.img-menu-texts {
+  width: 29%;
+}
+.img-menu-texts ul {
+  padding-top: 100px;
+}
+.img-menu-texts ul li {
+  list-style-type: none;
+}
+.rotate-txt {
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  padding-bottom: 100px;
+}
+
+.img-set {
+  width: 70%;
+  padding-top: 100px;
+}
+.img-item {
+  width: 16%;
   height: auto;
   display: flex;
   border: 5px;
   border-radius: 20px !important;
-  border: 1px white solid;
+  border: 2px white solid;
   margin-top: 20px;
-}
-.main-menu-topic {
-  display: block;
-  padding-left: 800px;
-  margin: 0;
 }
