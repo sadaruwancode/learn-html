@@ -118,3 +118,28 @@ body {
   border: 2px white solid;
   margin-top: 20px;
 }
+.rotate-txt-TOW {
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  padding-bottom: 100px;
+  color: red;
+}
+.body-sizes {
+  width: 10%;
+  display: inline-flex;
+
+  padding-left: 10px;
+}
+.body-sizes-item {
+  border: 2px white solid;
+  margin: 10px 10px 10px 10px;
+  border-radius: 100px;
+  width: 50px;
+  padding: 10px 10px 10px 10px;
+  height: 20px;
+  background-color: white;
+}
+.body-sizes-bag {
+  display: inline-flex;
+  padding-top: 50px;
+}
