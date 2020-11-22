@@ -6,6 +6,9 @@
   font-family: robotoThin;
   src: url(./fonts/Roboto-Thin.ttf);
 }
+h1,h2,h3,h4,h5,h6{
+  margin: 0px;
+}
 body {
   margin: 0;
   padding: 50px;
@@ -33,7 +36,7 @@ body {
   padding-right: 100px;
 }
 .main-menu-item {
-  padding: 8px 20px 8px 10px;
+  padding: 32px 20px 8px 10px;
 }
 .spacer {
   flex-grow: 1;
@@ -122,24 +125,85 @@ body {
   transform-origin: 0 0;
   transform: rotate(-90deg);
   padding-bottom: 100px;
-  color: red;
+  color: rgb(232, 99, 11);
+
 }
 .body-sizes {
   width: 10%;
   display: inline-flex;
+  padding-top: 15px;
 
   padding-left: 10px;
 }
 .body-sizes-item {
   border: 2px white solid;
   margin: 10px 10px 10px 10px;
-  border-radius: 100px;
-  width: 50px;
-  padding: 10px 10px 10px 10px;
-  height: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  /* width: 50px;
+  height: 50px; */
   background-color: white;
 }
 .body-sizes-bag {
-  display: inline-flex;
-  padding-top: 50px;
+
+  margin-left: 10px;
+  
 }
+.plus-mark{
+  padding-left: 20px;
+  font-size: 40px;    
+  background-color: rgb(232, 99, 11);
+  padding-bottom: 28px;
+  display: inline-flex;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.price{
+  display: flex;
+  padding: 10px 10px 0px 10px ;
+}
+.price h3{
+  text-decoration: line-through;
+  padding: 10px 10px 10px 10px ;
+}
+.price h4{
+ 
+  padding-left: 50px;
+}
+.last-btn{
+  height: 70px;
+  margin-top: 10px;
+  width: 420PX ;   
+  background-color: rgb(232, 99, 11);
+  display: flex;
+
+}
+.angle-left{
+  font-size: 60px;
+  padding: 4px 10px 10px 10px ;
+  border:  1px ;
+  height: 54px;
+  width: 50px;
+  background-color: rgb(232, 99, 11);
+
+}
+.angle-right{
+  font-size: 60px;
+  padding: 4px 10px 10px 10px ;
+  border:  1px ;
+  height: 54px;
+  width: 50px;
+  background-color: rgb(230, 92, 0);
+
+}
+.last-btn h3{
+  padding: 25px 20px 20px 25px ;
+}
+.angle-down{
+  font-size: 60px;
+  padding: 4px 10px 10px 35x ;
+  border: 1px  ;
+  height: 54px;
+  width: 50px;
+  background-color: rgb(232, 99, 11);

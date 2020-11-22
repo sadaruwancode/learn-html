@@ -213,6 +213,7 @@ ul.breadcrumb li a:hover {
   color: #ffff;
   font-size: 15px;
   font-family: robotoThin;
+  padding-left: 240px;
 }
 .list-non-syle li {
   list-style: none;
