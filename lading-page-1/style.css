@@ -1,0 +1,28 @@
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+   }
+  @font-face {
+    font-family: robotoThin;
+    src: url(./fonts/Roboto-Thin.ttf);
+  }
+  h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+  }
+.background{
+    width: 1000px;
+    height: 800px;
+    padding: 50px 50px 50px 50px;
+}
+ .adding-bg {
+    background-image: url(img/cover.jpg )   ;
+    background-size: cover;
+    width:100px;
+    height:500px;
+  } 
+  .header{
+    display: inline-flex;
+  }
+  .header-item{
+    padding: 30px 30px 30px 30px ;
+  }
